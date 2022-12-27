@@ -1,0 +1,49 @@
+Report Physical info: 
+------------------------+-------------+-----------+------------
+                        |             |Area (squm)|Leakage (uW)
+------------------------+-------------+-----------+------------
+Design Name             |CSKA         |           |            
+  Total Instances       |          175|        221|       5.061
+    Macros              |            0|          0|       0.000
+    Pads                |            0|          0|       0.000
+    Phys                |            0|          0|       0.000
+    Blackboxes          |            0|          0|       0.000
+    Cells               |          175|        221|       5.061
+      Buffers           |            0|          0|       0.000
+      Inverters         |           38|         20|       0.545
+      Clock-Gates       |            0|          0|       0.000
+      Combinational     |          137|        201|       4.516
+      Latches           |            0|          0|       0.000
+      FlipFlops         |            0|          0|       0.000
+       Single-Bit FF    |            0|          0|       0.000
+       Multi-Bit FF     |            0|          0|       0.000
+       Clock-Gated      |            0|           |            
+       Bits             |            0|          0|       0.000
+         Load-Enabled   |            0|           |            
+         Clock-Gated    |            0|           |            
+  Tristate Pin Count    |            0|           |            
+Physical Info           |Placed       |           |            
+  Chip Size (mm x mm)   |0.079 x 0.079|       6269|            
+  Fixed Cell Area       |             |          0|            
+    Phys Only           |            0|          0|            
+  Placeable Area        |             |        346|            
+  Movable Cell Area     |             |        221|            
+  Utilization (%)       |           63|           |            
+  Chip Utilization (%)  |           63|           |            
+  Total Wire Length (mm)|        4.028|           |            
+  Longest Wire (mm)     |        0.044|           |            
+  Average Wire (mm)     |        0.042|           |            
+------------------------+-------------+-----------+------------
+Report Path Groups: 
+-----+-------+------+---------+---------
+     | Path  |Weight|Critical |Worst    
+     | Group |      |Range(ps)|Slack(ps)
+-----+-------+------+---------+---------
+1    |default| 1.000|      0.0|<ill>    
+2    |I2R    | 1.000|      0.0|<ill>    
+3    |I2O    | 1.000|      0.0|  16018.1
+4    |R2O    | 1.000|      0.0|<ill>    
+-----+-------+------+---------+---------
+16   |          |                    |                     |                   |                 
+17   |*TOTAL    |           10.021532|            30.635420|           5.061231|        45.718185
+-----+----------+--------------------+---------------------+-------------------+-----------------
