@@ -1,0 +1,149 @@
+Report for group default
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: sequential_multiplier_inst/out_reg[63]/Q
+    (Clocked by vsysclk R)
+Endpoint: Register_inst3/out_reg[63]/D
+    (Clocked by vsysclk R)
+Path Group: default
+Data required time: 1966.7
+    (Clock shift: 2000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Setup time: 33.3)
+Data arrival time: 93.5
+Slack: 1873.2
+Logic depth: 0
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                      {create_clock}           r      0.0      0.0      0.0                        0.0      0.0    192   166,   45                       
+sequential_multiplier_inst/out_reg[63]/CK->Q
+                         DFF_X1                  rr     92.8     92.8     92.8      0.0      0.0      4.2      5.3      1   121,  120  /PD_TOP        (1.10)
+Register_inst3/out_reg[63]/D
+                         DFF_X1                   r     93.5      0.7               0.7     15.5                            121,   47  /PD_TOP        (1.10)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group I2R
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: in1[1]
+    (Clocked by vsysclk R)
+Endpoint: sequential_multiplier_inst/out_reg[44]/D
+    (Clocked by vsysclk R)
+Path Group: I2R
+Data required time: 1960.2
+    (Clock shift: 2000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Setup time: 39.8)
+Data arrival time: 1793.7
+Slack: 166.5
+Logic depth: 39
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+in1[1]                   {set_input_delay}        r    200.0    200.0    200.0                        8.1     22.6      5    83,    0                       
+sequential_multiplier_inst/i_1_1/i_22/A3->ZN
+                         NOR4_X4*                rf    226.1     26.1     24.1      2.0      0.0      1.6     42.2      5   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_1/i_23/A->ZN
+                         INV_X8                  fr    245.9     19.8     19.8      0.0     15.3      0.8     23.1      3   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_1/i_30/A1->ZN
+                         NOR2_X4*                rf    270.1     24.2     24.2      0.0      9.9      0.5     39.8      2   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_1/i_32/A->ZN
+                         INV_X8                  fr    284.6     14.5     14.5      0.0     15.3      0.6      8.8      2   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_1/i_33/A1->ZN
+                         NOR2_X4*                rf    301.7     17.1     17.1      0.0      6.4      0.6     29.9      2   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_1/i_36/A->ZN
+                         INV_X8                  fr    314.2     12.5     12.5      0.0     15.3      0.3      4.3      1   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_1/i_37/B1->ZN
+                         AOI21_X4                rf    326.3     12.1     12.1      0.0      5.3      0.3      4.2      1   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_0_112/A2->ZN
+                         NAND2_X4                fr    342.3     16.0     16.0      0.0      7.7      0.3      4.2      1   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_1_0_110/A2->ZN
+                         NAND2_X4*               rf    369.4     27.1     27.1      0.0      9.5      3.0     28.4      1   124,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_0_136/A->ZN
+                         INV_X8                  fr    388.1     18.3     18.3      0.0     15.3      0.5     18.5      2    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_0_1146/A->Z
+                         BUF_X32                 rr    418.0     29.9     29.9      0.0      8.8      8.2    137.4     31    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_0_754/A2->ZN
+                         NOR2_X4                 rf    429.3     11.3     11.1      0.2     14.5      5.1      3.8      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_123/B->CO
+                         FA_X1                   ff    509.2     80.3     79.9      0.4      5.5      0.4      4.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_143/A->CO
+                         FA_X1                   ff    588.2     79.0     79.0      0.0     16.6      0.4      3.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_161/CI->S
+                         FA_X1                   fr    703.8    115.6    115.6      0.0     15.1      0.4      3.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_164/CI->S
+                         FA_X1                   rf    797.7     93.9     93.9      0.0     14.2      0.4      3.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_166/CI->S
+                         FA_X1                   fr    913.9    116.2    116.2      0.0     16.5      0.4      3.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_168/CI->S
+                         FA_X1                   rf   1007.8     93.9     93.9      0.0     14.2      0.4      3.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_169/CI->S
+                         FA_X1                   fr   1125.7    117.9    117.9      0.0     16.5      0.3      3.8      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_170/B->CO
+                         HA_X1                   rr   1164.4     38.7     38.7      0.0     15.6      0.3      3.8      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_189/B->S
+                         HA_X1                   rr   1290.8    126.4    126.4      0.0     12.7      1.3     17.6      4    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1183/C1->ZN
+                         OAI211_X4*              rf   1352.6     61.8     61.8      0.0     95.8      0.6     28.2      2    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1178/A1->ZN
+                         OR2_X4                  ff   1395.6     43.0     43.0      0.0     15.3      0.3      4.2      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1176/A->ZN
+                         OAI21_X4*               fr   1441.8     46.2     46.2      0.0      8.2      0.5     51.4      2    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1173/A->ZN
+                         INV_X8                  rf   1448.7      6.9      6.9      0.0     15.3      0.3      4.3      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1613/B1->ZN
+                         AOI21_X4                fr   1472.5     23.8     23.8      0.0      3.5      0.3      4.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1612/A1->ZN
+                         NAND2_X4                rf   1487.7     15.2     15.2      0.0     21.3      0.3      4.2      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1611/A2->ZN
+                         NAND2_X4                fr   1503.3     15.6     15.6      0.0      6.9      0.3      4.2      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1610/A4->ZN
+                         NAND4_X4                rf   1534.7     31.4     31.4      0.0      9.5      0.3      4.6      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1609/A2->ZN
+                         NAND3_X4*               fr   1575.2     40.5     40.5      0.0     15.7      0.9     34.4      3    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1331/B1->ZN
+                         AOI21_X4                rf   1595.6     20.4     20.4      0.0     15.3      0.9     12.2      3    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1330/B1->ZN
+                         OAI21_X4*               fr   1656.7     61.1     61.1      0.0     10.9      0.9     34.1      3    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1302/A1->ZN
+                         NAND2_X4                rf   1683.0     26.3     26.3      0.0     15.3      0.3     25.7      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1301/A->ZN
+                         INV_X8                  fr   1697.6     14.6     14.6      0.0     15.7      0.6      8.8      2    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1300/B1->ZN
+                         OAI21_X4                rf   1712.4     14.8     14.8      0.0      6.4      0.6      8.3      2    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1299/A1->ZN
+                         NAND3_X4*               fr   1745.5     33.1     33.1      0.0     11.0      0.6     30.0      2    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1295/A->ZN
+                         INV_X8                  rf   1752.4      6.9      6.9      0.0     15.3      0.3      4.3      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1294/B1->ZN
+                         OAI21_X4                fr   1776.7     24.3     24.3      0.0      3.5      0.3      4.1      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/i_8_32/i_1292/A1->ZN
+                         NAND2_X4                rf   1792.8     16.1     16.1      0.0     18.1      4.8      5.9      1    72,   85  /PD_TOP        (1.10)
+sequential_multiplier_inst/out_reg[44]/D
+                         DFF_X1                   f   1793.7      0.9               0.9      7.6                            121,  120  /PD_TOP        (1.10)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group I2O
+Report for group R2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: Register_inst1/out_reg[29]/Q
+    (Clocked by vsysclk R)
+Endpoint: ovflag
+    (Clocked by vsysclk R)
+Path Group: R2O
+Data required time: 1500.0
+    (Clock shift: 2000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 312.1
+Slack: 1187.9
+Logic depth: 4
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                      {create_clock}           r      0.0      0.0      0.0                        0.0      0.0    192   166,   45                       
+Register_inst1/out_reg[29]/CK->Q
+                         DFF_X1                  rf     83.1     83.1     83.1      0.0      0.0      0.4      4.2      1   121,   47  /PD_TOP        (1.10)
+i_0_0_4/A4->ZN           NOR4_X4                 fr    163.7     80.6     80.6      0.0      8.8      0.4      4.1      1   121,   47  /PD_TOP        (1.10)
+i_0_0_2/A3->ZN           NAND4_X4                rf    198.4     34.7     34.7      0.0     42.3      0.4      2.8      1   121,   47  /PD_TOP        (1.10)
+i_0_0_1/B2->ZN           OAI221_X4               fr    301.9    103.5    103.5      0.0     14.2      0.3     25.8      1   121,   47  /PD_TOP        (1.10)
+i_0_0_0/A->ZN            INV_X8                  rf    311.8      9.9      9.9      0.0     18.1      2.7     12.7      1   121,   47  /PD_TOP        (1.10)
+ovflag                                            f    312.1      0.3               0.3      4.4                            121,    0                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+Report Instance Areas: 
+-----+----------------------------+------------------------+-----+---------
+     |Instance                    |Module                  |Cells|Cell Area
+-----+----------------------------+------------------------+-----+---------
+1    |top                         |                        | 3438|     6788
+2    |  sequential_multiplier_inst|sequential_multiplier   | 3286|     6178
+3    |  Register_inst3            |Register__parameterized0|   64|      289
+4    |  Register_inst2            |Register__4_0           |   32|      145
+5    |  Register_inst1            |Register                |   32|      145
+-----+----------------------------+------------------------+-----+---------

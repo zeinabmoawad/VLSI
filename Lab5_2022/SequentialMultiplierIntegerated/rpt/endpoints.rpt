@@ -1,0 +1,30 @@
+Report End Points: 
+-----+-------+-------+-------+------+-----+-----+------+----------------------------------------+----------------------------
+     |Group  |Launch |Capture|Shift |Delay|Depth|Slack |Begin Point                             |End Point                   
+-----+-------+-------+-------+------+-----+-----+------+----------------------------------------+----------------------------
+1    |default|vsysclk|vsysclk|2000.0|  0.7|    0|1873.2|sequential_multiplier_inst/out_reg[63]/Q|Register_inst3/out_reg[63]/D
+2    |default|vsysclk|vsysclk|2000.0|  0.7|    0|1873.2|sequential_multiplier_inst/out_reg[62]/Q|Register_inst3/out_reg[62]/D
+3    |default|vsysclk|vsysclk|2000.0|  0.7|    0|1873.2|sequential_multiplier_inst/out_reg[61]/Q|Register_inst3/out_reg[61]/D
+-----+-------+-------+-------+------+-----+-----+------+----------------------------------------+----------------------------
+Report End Points: 
+-----+-----+-------+-------+------+------+-----+-----+-----------+----------------------------------------
+     |Group|Launch |Capture|Shift |Delay |Depth|Slack|Begin Point|End Point                               
+-----+-----+-------+-------+------+------+-----+-----+-----------+----------------------------------------
+1    |I2R  |vsysclk|vsysclk|2000.0|1593.7|   39|166.5|in1[1]     |sequential_multiplier_inst/out_reg[44]/D
+2    |I2R  |vsysclk|vsysclk|2000.0|1591.8|   38|174.4|in1[1]     |sequential_multiplier_inst/out_reg[60]/D
+3    |I2R  |vsysclk|vsysclk|2000.0|1581.6|   36|176.2|in1[1]     |sequential_multiplier_inst/out_reg[32]/D
+-----+-----+-------+-------+------+------+-----+-----+-----------+----------------------------------------
+Report End Points: 
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+     |Group|Launch|Capture|Shift|Delay|Depth|Slack|Begin Point|End Point
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+1    |I2O  |      |       |     |     |     |     |           |         
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+Report End Points: 
+-----+-----+-------+-------+------+-----+-----+------+----------------------------+---------
+     |Group|Launch |Capture|Shift |Delay|Depth|Slack |Begin Point                 |End Point
+-----+-----+-------+-------+------+-----+-----+------+----------------------------+---------
+1    |R2O  |vsysclk|vsysclk|2000.0|229.0|    4|1187.9|Register_inst1/out_reg[29]/Q|ovflag   
+2    |R2O  |vsysclk|vsysclk|2000.0|  0.3|    0|1399.8|Register_inst3/out_reg[63]/Q|out[63]  
+3    |R2O  |vsysclk|vsysclk|2000.0|  0.3|    0|1404.4|Register_inst3/out_reg[61]/Q|out[61]  
+-----+-----+-------+-------+------+-----+-----+------+----------------------------+---------

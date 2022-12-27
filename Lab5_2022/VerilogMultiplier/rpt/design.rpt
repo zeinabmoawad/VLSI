@@ -1,0 +1,36 @@
+Report Physical info: 
+------------------------+-----------------+-----------+------------
+                        |                 |Area (squm)|Leakage (uW)
+------------------------+-----------------+-----------+------------
+Design Name             |VerilogMultiplier|           |            
+  Total Instances       |             3252|       5622|     111.324
+    Macros              |                0|          0|       0.000
+    Pads                |                0|          0|       0.000
+    Phys                |                0|          0|       0.000
+    Blackboxes          |                0|          0|       0.000
+    Cells               |             3252|       5622|     111.324
+      Buffers           |                0|          0|       0.000
+      Inverters         |              360|        192|       5.167
+      Clock-Gates       |                0|          0|       0.000
+      Combinational     |             2828|       5141|     101.094
+      Latches           |                0|          0|       0.000
+      FlipFlops         |               64|        289|       5.063
+       Single-Bit FF    |               64|        289|       5.063
+       Multi-Bit FF     |                0|          0|       0.000
+       Clock-Gated      |                0|           |            
+       Bits             |               64|        289|       5.063
+         Load-Enabled   |                0|           |            
+         Clock-Gated    |                0|           |            
+  Tristate Pin Count    |                0|           |            
+Physical Info           |Placed           |           |            
+  Chip Size (mm x mm)   |0.157 x 0.157    |      24586|            
+  Fixed Cell Area       |                 |          0|            
+    Phys Only           |                0|          0|            
+  Placeable Area        |                 |       9342|            
+  Movable Cell Area     |                 |       5622|            
+  Utilization (%)       |               60|           |            
+  Chip Utilization (%)  |               60|           |            
+  Total Wire Length (mm)|           13.160|           |            
+  Longest Wire (mm)     |            0.086|           |            
+  Average Wire (mm)     |            0.068|           |            
+------------------------+-----------------+-----------+------------
