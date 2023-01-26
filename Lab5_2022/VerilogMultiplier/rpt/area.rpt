@@ -1,8 +1,0 @@
-Report Instance Areas: 
------+------------------------------+------------------------+-----+---------
-     |Instance                      |Module                  |Cells|Cell Area
------+------------------------------+------------------------+-----+---------
-1    |top                           |                        | 3252|     5622
-2    |  VerilogMultiplierCircuitInst|VerilogMultiplierCircuit| 3188|     5333
-3    |  Register_inst3              |Register__parameterized0|   64|      289
------+------------------------------+------------------------+-----+---------
