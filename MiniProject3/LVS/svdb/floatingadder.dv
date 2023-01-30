@@ -1,0 +1,498 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/floatingadder.dv
+dv_start unmatched                                
+dv_cell {floatingadder} {floatingadder} unmatched
+dv_obj_count -transformed_nets {1529 1529} -transformed_inst {2802 2801} -transformed_port {100 100}
+dv_discrep 1 {Incorrect Nets} -inst_count { 1952 1956}
+dv_discrep_line {Net } -lnet {VSS} {                                                   } -snet {VSS} {}
+dv_discrep_line {--- 1952 Connections On This Net ---                      --- 1956 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X6082/M5} {} -lloc {(2.565,31.710)} {:}  {b} {                                  ** missing connection **}
+dv_discrep_line {} -ldev {X6082/M5} {} -lloc {(2.565,31.710)} {:}  {s} {                                  ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_invv):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XMux1/Xi_0_3/M_i_0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XMux1/Xi_0_3/M_i_0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xsub1/Xi_3/Xi_4/M_i_13} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xsub1/Xi_3/Xi_6/M_i_13} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xi_0_1_4/M_i_2} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xi_0_1_5/M_i_2} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xi_0_1_6/M_i_2} {:}  {b} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 1872 1867}
+dv_discrep_line {Net } -lnet {VDD} {                                                   } -snet {VDD} {}
+dv_discrep_line {--- 1872 Connections On This Net ---                      --- 1867 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(SPMP_2_2_1):}  {input} {                                        ** missing connection **}
+dv_discrep_line {  } -ldev {X5790/M5} {} -lloc {(5.795,28.320)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_smn2v):}  {in2} {                                              ** missing connection **}
+dv_discrep_line {  } -ldev {X5790/M0} {} -lloc {(5.795,28.910)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X6082/M11} {} -lloc {(2.565,31.120)} {:}  {b} {                                 ** missing connection **}
+dv_discrep_line {} -ldev {X6082/M11} {} -lloc {(2.565,31.120)} {:}  {d} {                                 ** missing connection **}
+dv_discrep_line {} -ldev {X6082/M11} {} -lloc {(2.565,31.120)} {:}  {s} {                                 ** missing connection **}
+dv_discrep_line {} -ldev {X6082/M5} {} -lloc {(2.565,31.710)} {:}  {d} {                                  ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_invv):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XMux1/Xi_0_3/M_i_1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XMux1/Xi_0_3/M_i_1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {975} {                                                   ** no similar net **}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets} -inst_count { 0 3}
+dv_discrep_line {** no similar net **                                      } -snet {outToShift[3]} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7238/M12} {} -lloc {(3.615,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xsub1/Xrc/Xi_0/Xi_6/M_instance_194} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {850} {                                                    } -sport {g} {: } -snet {Xsub1/EB2[6]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7238/M11} {} -lloc {(3.425,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xsub1/Xrc/Xi_0/Xi_6/M_instance_199} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[29]} {                                                  } -sport {g} {: } -snet {a[29]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7238/14} {                                               ** } -snet {Xsub1/Xrc/Xi_0/Xi_6/net_005} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7238/M10} {} -lloc {(3.235,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xsub1/Xrc/Xi_0/Xi_6/M_instance_203} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {8} {                                                      } -sport {g} {: } -snet {Xsub1/Xrc/Xi_0/n_5} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X7238/14} { **                                            } -sport {d} {: } -snet {Xsub1/Xrc/Xi_0/Xi_6/net_005} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7238/M2} {} -lloc {(1.550,1.215)} {  MN(NMOS_VTL)                       } -sdev {Xsub1/Xrc/Xi_0/Xi_6/M_instance_170} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {850} {                                                    } -sport {g} {: } -snet {Xsub1/EB2[6]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7238/9} {                                                ** } -snet {Xsub1/Xrc/Xi_0/Xi_6/net_001} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7238/M1} {} -lloc {(1.360,1.215)} {  MN(NMOS_VTL)                       } -sdev {Xsub1/Xrc/Xi_0/Xi_6/M_instance_166} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[29]} {                                                  } -sport {g} {: } -snet {a[29]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X7238/9} { **                                             } -sport {d} {: } -snet {Xsub1/Xrc/Xi_0/Xi_6/net_001} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6147/M4} {} -lloc {(28.025,1.090)} {  MN(NMOS_VTL)                      } -sdev {XMux1/Xi_0_20/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[20]} {                                                  } -sport {g} {: } -snet {a[20]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6147/9} {                                                ** } -snet {XMux1/Xi_0_20/Z_neg} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6147/M3} {} -lloc {(28.215,1.090)} {  MN(NMOS_VTL)                      } -sdev {XMux1/Xi_0_20/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X6147/9} { **                                             } -sport {d} {: } -snet {XMux1/Xi_0_20/Z_neg} {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6147/M2} {} -lloc {(28.405,1.090)} {  MN(NMOS_VTL)                      } -sdev {XMux1/Xi_0_20/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6147/8} {                                                } -sport {g} {: } -snet {XMux1/Xi_0_20/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6147/9} {                                                ** } -snet {XMux1/Xi_0_20/Z_neg} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6147/M1} {} -lloc {(28.595,1.090)} {  MN(NMOS_VTL)                      } -sdev {XMux1/Xi_0_20/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[20]} {                                                  } -sport {g} {: } -snet {b[20]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X6147/9} { **                                             } -sport {d} {: } -snet {XMux1/Xi_0_20/Z_neg} {}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6136/M4} {} -lloc {(22.135,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_6/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[29]} {                                                  } -sport {g} {: } -snet {b[29]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6136/9} {                                                ** } -snet {Xmux0/Xi_0_6/Z_neg} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6136/M3} {} -lloc {(22.325,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_6/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X6136/9} { **                                             } -sport {d} {: } -snet {Xmux0/Xi_0_6/Z_neg} {}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6136/M2} {} -lloc {(22.515,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_6/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6136/8} {                                                } -sport {g} {: } -snet {Xmux0/Xi_0_6/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6136/9} {                                                ** } -snet {Xmux0/Xi_0_6/Z_neg} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6136/M1} {} -lloc {(22.705,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_6/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[29]} {                                                  } -sport {g} {: } -snet {a[29]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X6136/9} { **                                             } -sport {d} {: } -snet {Xmux0/Xi_0_6/Z_neg} {}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6173/M3} {} -lloc {(44.655,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_228/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {388} {                                                    } -sport {g} {: } -snet {n_0_1_220} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6173/M4} {} -lloc {(44.845,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_228/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {454} {                                                    } -sport {g} {: } -snet {n_0_1_25} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6173/9} {                                                } -sport {d} {: } -snet {Xi_0_1_228/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 20 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6173/M1} {} -lloc {(44.275,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_228/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {447} {                                                    } -sport {g} {: } -snet {n_0_1_18} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 21 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6173/M2} {} -lloc {(44.465,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_228/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6173/8} {                                                } -sport {g} {: } -snet {Xi_0_1_228/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6173/9} {                                                } -sport {d} {: } -snet {Xi_0_1_228/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 22 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6170/M4} {} -lloc {(41.995,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_4/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[27]} {                                                  } -sport {g} {: } -snet {b[27]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 23 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6170/M3} {} -lloc {(41.805,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_4/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6170/9} {                                                } -sport {d} {: } -snet {Xmux0/Xi_0_4/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 24 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6170/M2} {} -lloc {(41.615,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_4/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6170/8} {                                                } -sport {g} {: } -snet {Xmux0/Xi_0_4/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 25 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6170/M1} {} -lloc {(41.425,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_4/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[27]} {                                                  } -sport {g} {: } -snet {a[27]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6170/9} {                                                } -sport {d} {: } -snet {Xmux0/Xi_0_4/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 26 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X0/M4} {} -lloc {(23.945,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_21/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[21]} {                                                  } -sport {g} {: } -snet {a[21]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 27 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X0/M3} {} -lloc {(23.755,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_21/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7770/X0/9} {                                             } -sport {d} {: } -snet {XMux1/Xi_0_21/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 28 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X0/M2} {} -lloc {(23.565,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_21/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X7770/X0/8} {                                             } -sport {g} {: } -snet {XMux1/Xi_0_21/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 29 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X0/M1} {} -lloc {(23.375,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_21/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[21]} {                                                  } -sport {g} {: } -snet {b[21]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7770/X0/9} {                                             } -sport {d} {: } -snet {XMux1/Xi_0_21/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 30 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X1/M4} {} -lloc {(25.275,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_21/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[21]} {                                                  } -sport {g} {: } -snet {b[21]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 31 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X1/M3} {} -lloc {(25.085,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_21/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {37} {                                                     } -sport {g} {: } -snet {XMux2/hfn_ipo_n1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7770/X1/9} {                                             } -sport {d} {: } -snet {XMux2/Xi_0_21/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 32 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X1/M2} {} -lloc {(24.895,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_21/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X7770/X1/8} {                                             } -sport {g} {: } -snet {XMux2/Xi_0_21/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 33 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X1/M1} {} -lloc {(24.705,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_21/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[21]} {                                                  } -sport {g} {: } -snet {a[21]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7770/X1/9} {                                             } -sport {d} {: } -snet {XMux2/Xi_0_21/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 34 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X1/M4} {} -lloc {(31.165,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_23/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[31]} {                                                  } -sport {g} {: } -snet {b[31]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 35 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X1/M3} {} -lloc {(30.975,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_23/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {37} {                                                     } -sport {g} {: } -snet {XMux2/hfn_ipo_n1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7772/X1/9} {                                             } -sport {d} {: } -snet {XMux2/Xi_0_23/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 36 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X1/M2} {} -lloc {(30.785,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_23/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X7772/X1/8} {                                             } -sport {g} {: } -snet {XMux2/Xi_0_23/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 37 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X1/M1} {} -lloc {(30.595,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_23/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[31]} {                                                  } -sport {g} {: } -snet {a[31]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7772/X1/9} {                                             } -sport {d} {: } -snet {XMux2/Xi_0_23/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 38 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X0/M4} {} -lloc {(29.835,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_23/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[31]} {                                                  } -sport {g} {: } -snet {a[31]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 39 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X0/M3} {} -lloc {(29.645,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_23/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7772/X0/9} {                                             } -sport {d} {: } -snet {XMux1/Xi_0_23/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 40 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X0/M2} {} -lloc {(29.455,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_23/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X7772/X0/8} {                                             } -sport {g} {: } -snet {XMux1/Xi_0_23/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 41 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X0/M1} {} -lloc {(29.265,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_23/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[31]} {                                                  } -sport {g} {: } -snet {b[31]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X7772/X0/9} {                                             } -sport {d} {: } -snet {XMux1/Xi_0_23/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 42 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6126/M4} {} -lloc {(17.765,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_5/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[28]} {                                                  } -sport {g} {: } -snet {b[28]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 43 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6126/M3} {} -lloc {(17.955,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_5/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6126/9} {                                                } -sport {d} {: } -snet {Xmux0/Xi_0_5/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 44 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6126/M2} {} -lloc {(18.145,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_5/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6126/8} {                                                } -sport {g} {: } -snet {Xmux0/Xi_0_5/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 45 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6126/M1} {} -lloc {(18.335,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_5/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[28]} {                                                  } -sport {g} {: } -snet {a[28]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6126/9} {                                                } -sport {d} {: } -snet {Xmux0/Xi_0_5/Z_neg} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 46 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6100/M4} {} -lloc {(9.975,1.090)} {  MN(NMOS_VTL)                       } -sdev {Xmux0/Xi_0_7/M_i_3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {b[30]} {                                                  } -sport {g} {: } -snet {b[30]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6100/9} {                                                ** } -snet {Xmux0/Xi_0_7/Z_neg} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 47 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6100/M3} {} -lloc {(10.165,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_7/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X6100/9} { **                                             } -sport {d} {: } -snet {Xmux0/Xi_0_7/Z_neg} {}
+dv_discrep_line {}
+dv_discrep 48 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6100/M2} {} -lloc {(10.355,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_7/M_i_5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6100/8} {                                                } -sport {g} {: } -snet {Xmux0/Xi_0_7/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X6100/9} {                                                ** } -snet {Xmux0/Xi_0_7/Z_neg} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 49 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6100/M1} {} -lloc {(10.545,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xmux0/Xi_0_7/M_i_4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {a[30]} {                                                  } -sport {g} {: } -snet {a[30]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {X6100/9} { **                                             } -sport {d} {: } -snet {Xmux0/Xi_0_7/Z_neg} {}
+dv_discrep_line {}
+dv_discrep 50 {Incorrect Instances}
+dv_discrep_line {} -ldev {X6173/M5} {} -lloc {(45.035,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_228/M_i_0} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6173/9} {                                                } -sport {g} {: } -snet {Xi_0_1_228/Z_neg} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {sum[27]} {                                                } -sport {s} {: } -snet {sum[27]} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 51 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X1/M0} {} -lloc {(30.405,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_23/M_i_10} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {37} {                                                     } -sport {g} {: } -snet {XMux2/hfn_ipo_n1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X7772/X1/8} {                                             } -sport {s} {: } -snet {XMux2/Xi_0_23/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 52 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7772/X0/M0} {} -lloc {(29.075,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_23/M_i_10} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X7772/X0/8} {                                             } -sport {s} {: } -snet {XMux1/Xi_0_23/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 53 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X1/M0} {} -lloc {(24.515,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux2/Xi_0_21/M_i_10} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {37} {                                                     } -sport {g} {: } -snet {XMux2/hfn_ipo_n1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X7770/X1/8} {                                             } -sport {s} {: } -snet {XMux2/Xi_0_21/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 54 {Incorrect Instances}
+dv_discrep_line {} -ldev {X7770/X0/M0} {} -lloc {(23.185,1.090)} {  MN(NMOS_VTL)                   } -sdev {XMux1/Xi_0_21/M_i_10} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {18} {                                                     } -sport {g} {: } -snet {hfn_ipo_n3} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X7770/X0/8} {                                             } -sport {s} {: } -snet {XMux1/Xi_0_21/x1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X6967/M2} {} -lloc {(35.575,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_6/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6967/9} {                                                } -sport {g} {: } -snet {Xi_0_1_6/x1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {354} {                                                    } -sport {s} {: } -snet {n_0_1_20} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X6968/M2} {} -lloc {(39.755,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_5/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6968/9} {                                                } -sport {g} {: } -snet {Xi_0_1_5/x1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {405} {                                                    } -sport {s} {: } -snet {n_0_1_19} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X6974/M2} {} -lloc {(45.835,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_4/M_i_2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X6974/9} {                                                } -sport {g} {: } -snet {Xi_0_1_4/x1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {447} {                                                    } -sport {s} {: } -snet {n_0_1_18} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X7617/M2} {} -lloc {(4.650,1.090)} {  MN(NMOS_VTL)                       } -sdev {Xsub1/Xi_3/Xi_6/M_i_13} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X7617/7} {                                                } -sport {g} {: } -snet {Xsub1/Xi_3/Xi_6/net_000} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    } -sport {s} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {850} {                                                    } -sport {d} {: } -snet {Xsub1/EB2[6]} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X7624/M2} {} -lloc {(11.490,1.090)} {  MN(NMOS_VTL)                      } -sdev {Xsub1/Xi_3/Xi_4/M_i_13} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X7624/7} {                                                } -sport {g} {: } -snet {Xsub1/Xi_3/Xi_4/net_000} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    } -sport {s} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {857} {                                                    } -sport {d} {: } -snet {Xsub1/EB2[4]} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {975} {                                                    ** no similar net **}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_smn2v)                                                  (_smn2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {111} {                                                  } -sport {in2} {: } -snet {n_0_1_313} {}
+dv_discrep_line {  } -lport {out1} {: } -lnet {89} {                                                  } -sport {out1} {: } -snet {n_0_1_238} {}
+dv_discrep_line {  } -lport {out2} {: } -lnet {VSS} {                                                 } -sport {out2} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {VDD} {                                                  ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in1} {: } -snet {outToShift[3]} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X5790/M0} {} -lloc {(5.795,28.910)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_4} {  MN(NMOS_VTL) }
+dv_discrep_line {  } -ldev {X5790/M1} {} -lloc {(5.605,28.910)} {  MN(NMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_3} {  MN(NMOS_VTL) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(SPMP_2_2_1)                                              (SPMP_2_2_1)}
+dv_discrep_line {  } -lport {output} {: } -lnet {VDD} {                                               } -sport {output} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {output} {: } -lnet {89} {                                                } -sport {output} {: } -snet {n_0_1_238} {}
+dv_discrep_line {  } -lport {input} {: } -lnet {111} {                                                } -sport {input} {: } -snet {n_0_1_313} {}
+dv_discrep_line {  } -lport {input} {: } -lnet {49} {                                                 } -sport {input} {: } -snet {outToShift[11]} {}
+dv_discrep_line {  } -lport {input} {: } -lnet {52} {                                                 } -sport {input} {: } -snet {n_0_1_286} {}
+dv_discrep_line {  } -lport {input} {: } -lnet {55} {                                                 } -sport {input} {: } -snet {n_0_1_239} {}
+dv_discrep_line {  } -lport {input} {: } -lnet {VDD} {                                                ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {input} {: } -snet {outToShift[3]} {}
+dv_discrep_line {}
+dv_discrep_line {Transistors:}
+dv_discrep_line {  } -ldev {X5790/M6} {} -lloc {(5.605,28.320)} {  MP(PMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_8} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -ldev {X5790/M5} {} -lloc {(5.795,28.320)} {  MP(PMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_9} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -ldev {X5790/M9} {} -lloc {(5.035,28.320)} {  MP(PMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_5} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -ldev {X5790/M8} {} -lloc {(5.225,28.320)} {  MP(PMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_6} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -ldev {X5790/M7} {} -lloc {(5.415,28.320)} {  MP(PMOS_VTL)                      } -sdev {Xi_0_1_330/M_i_7} {  MP(PMOS_VTL)}
+dv_discrep_line {}
+dv_end

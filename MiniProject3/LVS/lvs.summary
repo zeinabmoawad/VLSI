@@ -1,0 +1,28 @@
+
+
+==================================================================================
+=== CALIBRE::LVS-H SUMMARY REPORT
+===
+
+Extraction Summary
+------------------
+Extraction Start Time:                       Tue Jan 03 22:51:30 2023
+Extraction Finish Time:                      Tue Jan 03 22:51:43 2023
+Circuit Extraction Report:                   floatingadder.lvs.report.ext
+Circuit Extraction SPICE Netlist:            /home/vlsi/Desktop/Lab5_2022/LVS/floatingadder.sp
+
+Comparison Summary
+------------------
+Comparison Start Time:                       Tue Jan 03 22:51:45 2023
+Comparison Finish Time:                      Tue Jan 03 22:52:02 2023
+LVS Comparison Report:                       floatingadder.lvs.report
+LVS Comparison Status:                       INCORRECT.
+
+                      #   #                  ~   ~     
+                       # #                   x   x     
+                        #                      @       
+                       # #                    ___      
+                      #   #                  /   \     
+
+Comparison Error Types Detected:             2
+

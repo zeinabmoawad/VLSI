@@ -1,0 +1,2 @@
+.INCLUDE "/home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/spice/NangateOpenCellLibrary.spi"
+.INCLUDE "/home/vlsi/Desktop/Lab5_2022/LVS/_floatingadder.power.v.gz.sp"

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1672779090 1672779103
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/Lab5_2022/LVS
+lvs_ExtOutFile RULES_FILE /home/vlsi/Desktop/Lab5_2022/LVS/_calibre-lvs.rule_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/vlsi/Desktop/Lab5_2022/LVS/floatingadder.sp
+lvs_ExtOutFile EXTRACTION_REPORT floatingadder.lvs.report.ext
